@@ -1,0 +1,9 @@
+{
+    "name":"清水信行の誕生日カウントダウン",
+    "description":"カウントダウン拡張",
+    "version":"1.0",
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    },
+    "manifest_version":3
+}

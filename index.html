@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="jp">
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        background-color: black;
+    }
+    .viewer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        color:aliceblue;
+        flex-direction: column;
+    }
+    .countdown {
+        display: flex;
+        flex-direction: column;
+        margin-top: 300pt;
+        align-items: center;
+    }
+    .dateWrapper {
+        display: flex;
+        font-size: 24pt;
+        font-weight: bold;
+    }
+    .dateWrapper p {
+        margin-right: 4pt;
+    }
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>清水信行の誕生日カウントダウン</title>
+</head>
+<body>
+    <div class="viewer">
+        <div class="countdown">
+            <h1>誕生日 3月8日</h1>
+            <div class="dateWrapper">
+                <p>
+                    <span id="days">--</span>日
+                </p>
+                <p>
+                    <span id="hours">--</span>時間
+                </p>
+                <p>
+                    <span id="miniuts">--</span>分
+                </p>
+                <p>
+                    <span id="seconds">--</span>秒
+                </p>
+            </div>
+        </div>
+        <img src="shimizu.jpg" alt="">
+    </div>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
